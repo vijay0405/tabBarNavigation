@@ -1,12 +1,15 @@
 .tab-nav-container {
     background-color: #fff;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-radius: 30px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     display: flex;
     justify-content: space-between;
     padding: 30px;
     width: 450px;
+    
+    position: absolute;
+    bottom: 10px;
+    right:35%;
 }
 
 .tab {
